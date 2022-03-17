@@ -11,8 +11,8 @@
 
 &nbsp;
 
-### Link para o projeto online
-* [Dicee](https://rhazek.github.io/Dicee_Challenge/)
+<!-- ### Link para o projeto online
+* [Dicee](https://rhazek.github.io/Dicee_Challenge/) -->
 
 &nbsp;
 
