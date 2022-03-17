@@ -1,5 +1,5 @@
 # Dicee_Challenge
-<img src="https://user-images.githubusercontent.com/50714597/158899134-0b2dc6cd-f01f-4240-b1b3-b317ecd49fd0.png" align="center" />
+<img src="https://user-images.githubusercontent.com/50714597/158905371-e1a43c37-e760-48d1-aa82-f8e4bfbf2ec5.png" align="center" />
 
 &nbsp;
 
