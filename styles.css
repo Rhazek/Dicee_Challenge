@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -18,7 +17,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
 }
 
@@ -38,4 +37,36 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.button{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.buttonClass {
+  background: #4ecca2;
+  background-image: -webkit-linear-gradient(top, #4ecca2, #14cedb);
+  background-image: -moz-linear-gradient(top, #4ecca2, #14cedb);
+  background-image: -ms-linear-gradient(top, #4ecca2, #14cedb);
+  background-image: -o-linear-gradient(top, #4ecca2, #14cedb);
+  background-image: linear-gradient(to bottom, #4ecca2, #14cedb);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: #1ce8a4;
+  background-image: -webkit-linear-gradient(top, #1ce8a4, #5df08c);
+  background-image: -moz-linear-gradient(top, #1ce8a4, #5df08c);
+  background-image: -ms-linear-gradient(top, #1ce8a4, #5df08c);
+  background-image: -o-linear-gradient(top, #1ce8a4, #5df08c);
+  background-image: linear-gradient(to bottom, #1ce8a4, #5df08c);
+  text-decoration: none;
 }

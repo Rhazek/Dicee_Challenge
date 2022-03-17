@@ -1,7 +1,6 @@
-
+function dice() {
   let randomNumber1 = Math.floor(Math.random() * 6) + 1;
-  let randomDiceImage = "dice" + randomNumber1 + ".png";
-  let randomImageSource = "images/" + randomDiceImage;
+  let randomImageSource = "images/dice" + randomNumber1 + ".png";
   let image1 = document.querySelectorAll("img")[0];
   image1.setAttribute("src", randomImageSource);
 
@@ -9,13 +8,11 @@
   let randomImageSource2 = "images/dice" + randomNumber2 + ".png";
   document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
-  if(randomNumber1>randomNumber2){
-  document.querySelector("h1").textContent = "🚩Player 1 WINS!";
-  document.querySelector("h1").style.fontSize = "5rem";
-} else if(randomNumber1<randomNumber2) {
-  document.querySelector("h1").textContent = "Player 2 WINS!🚩";
-  document.querySelector("h1").style.fontSize = "5rem";
-} else {
-  document.querySelector("h1").textContent = "DRAW!!🏳️";
-  document.querySelector("h1").style.fontSize = "5rem";
+  if (randomNumber1 > randomNumber2) {
+    document.querySelector("h1").textContent = "🚩Player 1 WINS!";
+  } else if (randomNumber1 < randomNumber2) {
+    document.querySelector("h1").textContent = "Player 2 WINS!🚩";
+  } else {
+    document.querySelector("h1").textContent = "DRAW!!🏳️";
+  }
 }
