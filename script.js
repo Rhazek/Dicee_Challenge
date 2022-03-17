@@ -1,21 +1,21 @@
 
-function dice(){
-  let pictures = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
-  let image1 = Math.floor(Math.random() * pictures.length);
-  document.querySelector(".img1").setAttribute("src", pictures[image1]);
-  let image2 = Math.floor(Math.random() * pictures.length);
-  document.querySelector(".img2").setAttribute("src", pictures[image2]);
+  let randomNumber1 = Math.floor(Math.random() * 6) + 1;
+  let randomDiceImage = "dice" + randomNumber1 + ".png";
+  let randomImageSource = "images/" + randomDiceImage;
+  let image1 = document.querySelectorAll("img")[0];
+  image1.setAttribute("src", randomImageSource);
 
-  if(image1>image2){
+  let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+  let randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+  document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
+
+  if(randomNumber1>randomNumber2){
   document.querySelector("h1").textContent = "🚩Player 1 WINS!";
   document.querySelector("h1").style.fontSize = "5rem";
-} else if(image1<image2) {
+} else if(randomNumber1<randomNumber2) {
   document.querySelector("h1").textContent = "Player 2 WINS!🚩";
   document.querySelector("h1").style.fontSize = "5rem";
 } else {
   document.querySelector("h1").textContent = "DRAW!!🏳️";
   document.querySelector("h1").style.fontSize = "5rem";
 }
-}
-
- dice();
